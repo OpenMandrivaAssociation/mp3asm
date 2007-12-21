@@ -11,6 +11,7 @@ License:        GPL
 Group:          Sound
 URL:            http://sourceforge.net/projects/mp3asm
 Source0:        %{name}-%{version}-%{subversion}.tar.bz2
+BuildRoot:      %{_tmppath}/%{name}-buildroot
 
 %description
 MP3ASM allows for cutting, copying, pasting of individual frames, 
