@@ -4,7 +4,7 @@
 %define release %mkrel 1
 
 Name:           %{name}
-Summary:        An mpeg 1/2/2.5 audio layer 1,2,3 frame level editor.
+Summary:        An mpeg 1/2/2.5 audio layer 1,2,3 frame level editor
 Version:        %{version}
 Release:        %{release}
 License:        GPL
