@@ -1,7 +1,7 @@
 %define name mp3asm
 %define version 0.1.3
 %define subversion 1
-%define release %mkrel 1
+%define release %mkrel 3
 
 Name:           %{name}
 Summary:        An mpeg 1/2/2.5 audio layer 1,2,3 frame level editor
