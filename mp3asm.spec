@@ -38,3 +38,33 @@ rm -rf %{buildroot}
 %defattr(0644,root,root,0755)
 %doc COPYING README Changelog
 
+
+
+%changelog
+* Fri Dec 10 2010 Oden Eriksson <oeriksson@mandriva.com> 0.1.3-5mdv2011.0
++ Revision: 620399
+- the mass rebuild of 2010.0 packages
+
+* Fri Sep 04 2009 Thierry Vignaud <tv@mandriva.org> 0.1.3-4mdv2010.0
++ Revision: 430096
+- rebuild
+
+* Tue Jul 29 2008 Thierry Vignaud <tv@mandriva.org> 0.1.3-3mdv2009.0
++ Revision: 252921
+- rebuild
+- fix summary-ended-with-dot
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Mon Dec 17 2007 Thierry Vignaud <tv@mandriva.org> 0.1.3-1mdv2008.1
++ Revision: 130233
+- kill re-definition of %%buildroot on Pixel's request
+- use %%mkrel
+- import mp3asm
+
+
+* Tue Jun 1 2004 Austin Acton <austin@mandrakesoft.org> 0.1.3-1mdk
+- from Frederic Guardia <frederic.guardia@wanadoo.fr> :
+  - First spec file
+
