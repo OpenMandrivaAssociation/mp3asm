@@ -5,12 +5,12 @@
 
 Name:           %{name}
 Summary:        An mpeg 1/2/2.5 audio layer 1,2,3 frame level editor
-Version:        %{version}
-Release:        %{release}
+Version:        0.1.3.1
+Release:        1
 License:        GPL
 Group:          Sound
 URL:            http://sourceforge.net/projects/mp3asm
-Source0:        %{name}-%{version}-%{subversion}.tar.bz2
+Source0:        https://sourceforge.net/projects/mp3asm/files/mp3asm/0.1.3-1/mp3asm-0.1.3-1.tar.bz2
 BuildRoot:      %{_tmppath}/%{name}-buildroot
 
 %description
@@ -67,4 +67,5 @@ rm -rf %{buildroot}
 * Tue Jun 1 2004 Austin Acton <austin@mandrakesoft.org> 0.1.3-1mdk
 - from Frederic Guardia <frederic.guardia@wanadoo.fr> :
   - First spec file
+
 
