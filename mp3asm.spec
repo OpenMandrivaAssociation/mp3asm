@@ -1,17 +1,11 @@
-%define name mp3asm
-%define version 0.1.3
-%define subversion 1
-%define release %mkrel 5
-
-Name:           %{name}
+Name:           mp3asm
 Summary:        An mpeg 1/2/2.5 audio layer 1,2,3 frame level editor
-Version:        %{version}
-Release:        %{release}
+Version:        0.1.3.1
+Release:        1
 License:        GPL
 Group:          Sound
 URL:            http://sourceforge.net/projects/mp3asm
-Source0:        %{name}-%{version}-%{subversion}.tar.bz2
-BuildRoot:      %{_tmppath}/%{name}-buildroot
+Source0:        https://sourceforge.net/projects/mp3asm/files/mp3asm/0.1.3-1/mp3asm-0.1.3-1.tar.bz2
 
 %description
 MP3ASM allows for cutting, copying, pasting of individual frames, 
@@ -23,14 +17,10 @@ Quite useful program for maintaining any mp3 collection.
 
 %build
 %configure
-%make CFLAGS="$RPM_OPT_FLAGS"
+%make CFLAGS="%{optflags}"
 
 %install
-rm -rf %{buildroot}
-%{__install} -D src/mp3asm $RPM_BUILD_ROOT%{_bindir}/mp3asm
-
-%clean
-rm -rf %{buildroot}
+%{__install} -D src/mp3asm %{buildroot}%{_bindir}/mp3asm
 
 %files -n %{name}
 %defattr(0755,root,root,0755)
@@ -67,4 +57,5 @@ rm -rf %{buildroot}
 * Tue Jun 1 2004 Austin Acton <austin@mandrakesoft.org> 0.1.3-1mdk
 - from Frederic Guardia <frederic.guardia@wanadoo.fr> :
   - First spec file
+
 
