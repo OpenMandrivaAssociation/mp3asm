@@ -1,7 +1,7 @@
 Name:           mp3asm
 Summary:        An mpeg 1/2/2.5 audio layer 1,2,3 frame level editor
 Version:        0.1.3.1
-Release:        1
+Release:        2
 License:        GPL
 Group:          Sound
 URL:            http://sourceforge.net/projects/mp3asm
