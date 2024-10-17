@@ -4,7 +4,7 @@ Version:        0.1.3.1
 Release:        2
 License:        GPL
 Group:          Sound
-URL:            http://sourceforge.net/projects/mp3asm
+URL:            https://sourceforge.net/projects/mp3asm
 Source0:        https://sourceforge.net/projects/mp3asm/files/mp3asm/0.1.3-1/mp3asm-0.1.3-1.tar.bz2
 
 %description
